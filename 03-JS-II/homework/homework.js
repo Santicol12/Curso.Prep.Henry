@@ -160,10 +160,6 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  // numero = 5
-  // i = 6
-  // cantiadad = 2
-
   let cantidadDedivisores = 0;
   for (let i = 1; i <= numero; i++) {
     if (numero % i === 0) {
@@ -209,10 +205,10 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  let i = 0
+  let i = 0;
   do {
     i += 5;
-    numero += 5
+    numero += 5;
   } while (i < 40);
   return numero;
 }
