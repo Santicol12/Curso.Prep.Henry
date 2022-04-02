@@ -104,10 +104,6 @@ function multiplicarArgumentos() {
   if (arguments.length === 0) {
     return 0;
   }
-  if (arguments.length === 1) {
-    // '1' === 1
-    return arguments[0];
-  }
   var MultiplicacionTotal = 1;
   for (let i = 0; i < arguments.length; i++) {
     MultiplicacionTotal *= arguments[i];
